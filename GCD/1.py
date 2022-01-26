@@ -1,3 +1,5 @@
+# Constraints: m and n should be positive
+
 fm = []                             # factors of m
 fn = []                             # factors of n
 cf = []                             # common factors of m and n
