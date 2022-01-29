@@ -1,4 +1,4 @@
-# Using Eucledian's algorithm: gcd(m, n) = gcd(n, m-n)
+# Using Eucledian's difference algorithm: gcd(m, n) = gcd(n, m-n)
 
 def gcd(m, n):
   if n > m:
