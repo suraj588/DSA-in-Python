@@ -68,8 +68,14 @@ This can be written as : `gcd(m, n) = gcd(n, r)`
 
 #### Consider the numbers to be in the order of 10^9. For the worst case scenarios :
 
-- Method-1 :
-3 loops, iterating in the order of 10^9. 🥵
+- #### Method-1 :
+   3 loops, iterating in the order of 10^9. 🥵
 
-- Method-2 and Method-3 : 
-1 loop, iterating in the order of 10^9. 😳
+- #### Method-2 and Method-3 : 
+   1 loop, iterating in the order of 10^9. 😳
+
+- #### Method-4 and Method-5 :
+  `(m - n) / n` (approx.) times. If `m = 10^9` and `n` = 3, then Space complexity : 10^9 / 3 (approx) and decreases with increase in `n`.
+  
+- #### Method-6 :
+  Only 10 iterations. 😎
